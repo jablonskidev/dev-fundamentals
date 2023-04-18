@@ -11,6 +11,7 @@ I'm going to start by writing short resources about the command line and git. As
 Table of contents:
 - Command line
 - [Git](https://github.com/jablonskidev/dev-fundamentals/blob/main/git-first-steps.md)
+- APIs
 
 ## Who Am I?
 
