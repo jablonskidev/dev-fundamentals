@@ -29,6 +29,10 @@ Using version control is useful for all projects, but it's especially important 
 
 ## How Do You Get Git?
 
+Got to the git site to:
+- [Download git](https://git-scm.com/downloads)
+- [Set up git](https://git-scm.com/book/en/v2/Getting-Started-First-Time-Git-Setup)
+
 ## How Do You Use Git?
 
 ## Next Steps
