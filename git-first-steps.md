@@ -35,6 +35,13 @@ Got to the git site to:
 
 ## How Do You Use Git?
 
+To start using git with GitHub, you'll need to know how to:
+- Create a [repository](https://en.wikipedia.org/wiki/Repository_(version_control))
+- Add files to the repository
+- [Commit](https://en.wikipedia.org/wiki/Commit_(version_control)) changes
+- Push changes to a remote repository
+- Pull changes from a remote repository
+
 ## Next Steps
 Now that you know what git is and how to use it, you can practice using it with your next personal project.
 
