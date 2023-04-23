@@ -12,6 +12,7 @@ Table of contents:
 - Command line
 - [Git](https://github.com/jablonskidev/dev-fundamentals/blob/main/git-first-steps.md)
 - APIs
+- Databases
 
 ## Who Am I?
 
