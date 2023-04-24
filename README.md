@@ -14,6 +14,8 @@ Table of contents:
 - Testing
 - APIs
 - Databases
+- Docker
+- Kubernetes
 
 ## Who Am I?
 
