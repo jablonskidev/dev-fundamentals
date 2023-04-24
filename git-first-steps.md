@@ -35,10 +35,11 @@ Got to the git site to:
 
 ## How Do You Use Git?
 
-To start using git with GitHub, you'll need to know how to:
+In this section, you'll learn how to:
 - Create a [repository](https://en.wikipedia.org/wiki/Repository_(version_control))
 - Add files to the repository
 - [Commit](https://en.wikipedia.org/wiki/Commit_(version_control)) changes
+- See a list of past changes
 - Push changes to a remote repository
 - Pull changes from a remote repository
 
@@ -70,19 +71,38 @@ Now that you've added a file to the repository, you can commit that change. A co
 git commit -m "Commit message"
 ```
 
-Replace "Commit message" with a short description of the changes you made. Keep it short but informative.
+Replace `"Commit message"` with a short description of the changes you made. Keep it short but informative.
+
+### See Past Changes
+
+If you want to see a list of changes you've made, use the following command:
+
+```
+git log
+```
+
+This will give you a list of previous commits. Each of the commits in the list will have:
+- A code to identify the commit
+- The name and email address of the person who made the commit
+- The date and time of the commit
 
 ### Push Changes to a Remote Repository
 
-Now that you're made changes on your own machine, you can make sure that your GitHub account reflects those changes. If you don't yet have a GitHub account, [make an account](https://github.com/join) for free. To push your changes, use the following command:
+Now that you're made changes on your own machine, you'll make your GitHub account reflects those changes. 
+
+If you don't yet have a GitHub account, [make an account](https://github.com/join) for free. [Create a repository](https://docs.github.com/en/get-started/quickstart/create-a-repo) on GitHub. Next, connect your local git repository to your remote GitHub repository with the following command:
 
 ```
-git push <remote> <branch>
+git remote add origin <GitHub repository URL>
 ```
 
-Replace:
-- `<remote>` with the name of the remote repository, such as "origin"
-- `<branch>` with the name of the branch you want to push to, such as "main"
+Replace `<GitHub repository URL>` with the URL of your GitHub repository.
+
+To push your changes, use the following command:
+
+```
+git push -u origin main
+```
 
 Now your changes are in the remote repository.
 
@@ -105,4 +125,4 @@ Now that you know what git is and how to use it, you can practice using it with 
 To learn more, see these resources:
 - [Git docs](https://git-scm.com/docs/)
 - [Git commands for devs working on a one-person project](https://git-scm.com/docs/giteveryday#STANDALONE)
-- [Git commands for devs working on a group project](https://git-scm.com/docs/giteveryday#PARTICIPANT) 
+- [Git commands for devs working on a group project](https://git-scm.com/docs/giteveryday#PARTICIPANT)
